@@ -22,7 +22,7 @@ print(f"Class distribution:\n{y.value_counts()}\n")
 # Step 3: Split into train and test sets
 print("Splitting dataset into training and testing sets...")
 X_train, X_test, y_train, y_test = train_test_split(
-    X, y, test_size=0.2, random_state=42, stratify=y
+    X, y, test_size=0.5, random_state=42, stratify=y
 )
 print(f"Training set size: {X_train.shape[0]} samples")
 print(f"Testing set size: {X_test.shape[0]} samples\n")
@@ -36,7 +36,7 @@ print("Feature normalization complete!\n")
 
 # Step 5: Train the SVM model
 print("Training the SVM model (this may take some time)...")
-svm = SVC(kernel='rbf', class_weight='balanced', random_state=42)
+svm = SVC(kernel='linear', class_weight='balanced', random_state=42)
 svm.fit(X_train, y_train)
 print("SVM training complete!\n")
 
