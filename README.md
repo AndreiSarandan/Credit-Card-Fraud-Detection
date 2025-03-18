@@ -1,7 +1,8 @@
-**Credit Card Fraud Detection Using SVM algorithm
-🔍 Machine Learning Model to Identify Fraudulent Transactions**
+**Credit Card Fraud Detection Using SVM algorithm**
+
+**🔍 Machine Learning Model to Identify Fraudulent Transactions**
 This project builds a Credit Card Fraud Detection System using a Support Vector Machine (SVM) classifier.
-The dataset contains transaction details, and the goal is to classify transactions as fraudulent (1) or non-fraudulent (0). Since fraud cases are rare, the dataset is highly imbalanced, requiring careful handling through class weighting and feature scaling.
+The dataset contains transaction details and the goal is to classify transactions as fraudulent (1) or non-fraudulent (0). Since fraud cases are rare, the dataset is highly imbalanced, requiring careful handling through class weighting and feature scaling.
 
 ****📊 Dataset**
 •	Source: Kaggle – Credit Card Fraud Dataset -> https://www.kaggle.com/datasets/dhanushnarayananr/credit-card-fraud
